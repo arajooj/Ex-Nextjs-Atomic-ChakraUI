@@ -1,0 +1,51 @@
+[
+  {
+    "version": "1.2.5",
+    "changelog": [
+      "Agora ao consultar uma NFE, e gravado a ação e contabilizado no banco"
+    ]
+  },
+  {
+    "version": "1.2.4",
+    "changelog": ["Foi corrigido erros de portugues"]
+  },
+  {
+    "version": "1.2.3",
+    "changelog": ["Adicionado configuração para report"]
+  },
+  {
+    "version": "1.2.2",
+    "changelog": ["Adicionado marca-dagua nas NFe PDF"]
+  },
+  {
+    "version": "1.2.1",
+    "changelog": ["Corrigido texto do botão Baixar CCe"]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Adicionado possibilidade de imprimir Cce caso exista",
+      "Adicionado possibilidade de consultar nota pelo codigo do pedido",
+      "Criado rotas (cce,pdf,xml,achar) separadamente para melhor performance"
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "changelog": ["Alterado a ordem das empresas na hora da consulta"]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "Adicionado rota api para impressão de xml",
+      "Adicionado rota api para impressão de cce"
+    ]
+  },
+  {
+    "version": "1.0",
+    "changelog": [
+      "Aplicação migrada de antigo serviço",
+      "Nova interface mais facil de mecher",
+      "Retirado necessidade de definir estabelecimento"
+    ]
+  }
+]

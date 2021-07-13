@@ -1,0 +1,17 @@
+[
+  {
+    "version": "0.2.1",
+    "changelog": ["Foi corrigido erros de portugues"]
+  },
+  {
+    "version": "0.2",
+    "changelog": [
+      "Corrigido problema na indentificação na posição da rota",
+      "Adicionado configuração para report"
+    ]
+  },
+  {
+    "version": "0.1",
+    "changelog": ["Criado o modulo inicial"]
+  }
+]

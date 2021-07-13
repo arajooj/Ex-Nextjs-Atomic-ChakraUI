@@ -1,0 +1,125 @@
+[
+  {
+    "version": "0.8",
+    "changelog": [
+      "Agora as informações (user e module) são gravados em banco de dados (MONGODB)",
+      "Foi adicionado novas variaveis de ambiente",
+      "Atualizado modulos para puxar do novo banco de dados",
+      "Deletado banco local antigo",
+      "Criado LIB para ajudar a conectar no banco (MONGO e REDIS)",
+      "Foi adicionado nova API para CONTAR usos de determinado modulo",
+      "Foi adicionado nova API para GRAVAR de ações de usuarios (LOG) - apenas NFE por hora",
+      "Foi deletado o modulo NFED",
+      "Novo modulo PERFIL para futuramente ser dinamico",
+      "Criado UTIL's para: Banco de Dados, Counter, Logger e API"
+    ]
+  },
+  {
+    "version": "0.7.5",
+    "changelog": ["Foi criado um modulo desativado do NFE"]
+  },
+  {
+    "version": "0.7.4",
+    "changelog": [
+      "Corrigido erros de portugues",
+      "Adicionado usuario",
+      "Corrigido numeros de Aparecida"
+    ]
+  },
+  {
+    "version": "0.7.3",
+    "changelog": ["Corrigido html mal formatado nos emails"]
+  },
+  {
+    "version": "0.7.2",
+    "changelog": ["Foi corrigido o horario ao enviar email"]
+  },
+  {
+    "version": "0.7.1",
+    "changelog": [
+      "Foi corrigido erros de portugues",
+      "Foi adicionado mensagem de erro ao tentar reportar um erro e falhar",
+      "Foi corrigido o horario ao enviar email",
+      "Foi adicionaod uma nova conversão de valores base64 para texto"
+    ]
+  },
+  {
+    "version": "0.7",
+    "changelog": [
+      "Adicionado senha do email nas configurações locais",
+      "Criado componente FOOTER onde fica as informações pontuais",
+      "Foi adicionado todos os usuarios da Catral na plataforma",
+      "Foi adicionado configuração para report de problemas",
+      "Foi criado o novo endpoint para envio de emails (ultilizando logi,n sac)",
+      "Foi adicionado as novas rotas de api na util",
+      "Foi adicionado o botão de REPORTAR PROBLEMA",
+      "Foi criado o menu para reportar problemas"
+    ]
+  },
+  {
+    "version": "0.6.1",
+    "changelog": [
+      "Adicionado dependencia 'pdf-lib' para conseguir adicionar marca-dagua nos pdfs"
+    ]
+  },
+  {
+    "version": "0.6",
+    "changelog": [
+      "Criado novo modulo RASTREIO",
+      "Corrigido texto e descrição do modulo nfe",
+      "Criado api para novo modulo RASTREIO",
+      "Criado api para vtex",
+      "Adicionado bootstrap ao projeto",
+      "Criado toke.json para autenticacao por token",
+      "Corrigido nomeclatura das classes",
+      "Criado arquivo de teste",
+      "Adicionado icones para rastreio (ainda sem uso)",
+      "Criado novo util, o loading para auxiliar em estados de carregamento"
+    ]
+  },
+  {
+    "version": "0.5",
+    "changelog": [
+      "Criado funções para consultar api's com mais facilidade",
+      "Alterado todas as rotas para api/v2"
+    ]
+  },
+  {
+    "version": "0.4.3",
+    "changelog": [
+      "Adicionado token para impressão de xml",
+      "Movido as api existentes para path com /api/v1/"
+    ]
+  },
+  {
+    "version": "0.4.2",
+    "changelog": [
+      "Corrigido bug ao entrar no perfil não carregava as informações"
+    ]
+  },
+  {
+    "version": "0.4.1",
+    "changelog": [
+      "Alterado modulo TESTE para BASE",
+      "Alterado modulos dentro de usuarios de TESTE para BASE",
+      "Adicionado versões do aplicativo e dos modulos na parte de baixo do rodape",
+      "Criado o changelog do modulo NFE"
+    ]
+  },
+  {
+    "version": "0.4",
+    "changelog": ["Adicionado modulo teste", "Adicionado modulo NFE"]
+  },
+  {
+    "version": "0.3",
+    "changelog": ["Criado interface simples e dinamica"]
+  },
+  {
+    "version": "0.2",
+    "changelog": ["Adicionado autenticação por google suite"]
+  },
+  {
+    "version": "0.1",
+    "changelog": ["Versão inicial do projeto"]
+  }
+]
